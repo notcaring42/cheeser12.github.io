@@ -1,0 +1,46 @@
+body {
+    background-color: #698996;
+    color: white;
+    align-content: center;
+}
+
+
+@keyframes header-fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+header {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.title {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    font-family: 'Raleway', sans-serif;
+    animation-name: header-fade-in;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+.title > h1 {
+    margin-bottom: 5px;
+    font-size: 3em;
+}
+.title > h2 {
+    font-size: 1.3em;
+}
+nav > ul {
+   font-family: 'Raleway', sans-serif;
+   list-style: none; 
+   display: flex;
+   padding-inline-start: 0;
+   animation-name: header-fade-in;
+   animation-duration: 4s;
+   animation-delay: 2s;
+   animation-fill-mode: forwards;
+   opacity: 0;
+}
