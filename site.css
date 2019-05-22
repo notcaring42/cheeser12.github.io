@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #698996;
     color: white;
@@ -9,7 +12,11 @@ body {
     from { opacity: 0; }
     to { opacity: 1; }
 }
-header {
+@keyframes header-fade-out {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+.intro {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -38,9 +45,42 @@ nav > ul {
    list-style: none; 
    display: flex;
    padding-inline-start: 0;
+}
+.intro-links {
+   opacity: 0;
    animation-name: header-fade-in;
    animation-duration: 4s;
    animation-delay: 2s;
    animation-fill-mode: forwards;
-   opacity: 0;
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    display: none;
+}
+
+.navbar-fade-in {
+    animation-name: header-fade-in;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.navbar-fade-out {
+    animation-name: header-fade-out;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
+
+main > section {
+    height: 100vh;
+}
+#about {
+    padding-top: 100px;
 }
