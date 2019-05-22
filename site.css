@@ -81,6 +81,6 @@ nav > ul {
 main > section {
     height: 100vh;
 }
-#about {
+.anchor {
     padding-top: 100px;
 }
