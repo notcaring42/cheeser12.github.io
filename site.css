@@ -6,6 +6,10 @@ body {
     color: white;
     align-content: center;
 }
+a:visited {
+    color: inherit;
+
+} 
 
 
 @keyframes header-fade-in {
@@ -59,9 +63,10 @@ nav > ul {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: red;
+    background-color: #303030;
     width: 100%;
     display: none;
+    color: white;
 }
 
 .navbar-fade-in {
