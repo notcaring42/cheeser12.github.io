@@ -1,6 +1,6 @@
 window.onscroll = () => {
-    let intro = document.querySelector('.intro-links');
-    let navbar = document.querySelector('.navbar');
+    const intro = document.querySelector('.intro-links');
+    const navbar = document.querySelector('.navbar');
 
     if (isElementInViewport(intro)) {
         if (navbar.classList.contains('navbar-fade-in')) {
@@ -18,7 +18,7 @@ window.onscroll = () => {
 };
 
 function isElementInViewport (el) {
-    var rect = el.getBoundingClientRect();
+    const rect = el.getBoundingClientRect();
 
     return (
         rect.bottom >= 0
