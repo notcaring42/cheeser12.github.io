@@ -12,7 +12,7 @@ window.onscroll = () => {
             navbar.classList.remove('navbar-fade-out');
         }
 
-        navbar.style.display = 'inherit';
+        navbar.style.display = 'flex';
         navbar.classList.add('navbar-fade-in');
     }
 };
