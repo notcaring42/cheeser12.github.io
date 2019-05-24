@@ -92,5 +92,8 @@ main > section {
     height: 100vh;
 }
 .anchor {
-    padding-top: 100px;
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
 }
