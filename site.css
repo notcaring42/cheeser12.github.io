@@ -97,3 +97,36 @@ main > section {
     top: -120px;
     visibility: hidden;
 }
+
+.work {
+    margin-top: 10px;
+}
+.work > main {
+    display: flex;
+    justify-content: center;
+}
+.work > main > ul {
+    display: grid;
+    grid-column-gap: 50px;
+    padding-left: 0;
+}
+@media(min-width: 703px) {
+    .work > main > ul {
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width: 702px) {
+    .work > main > ul {
+        grid-template-columns: auto;
+    }
+}
+.work > main > ul > li {
+    list-style-type: none;
+    max-width: 600px;
+}
+.workHistory > header {
+    background-color: red;
+}
+.workHistory > main {
+    background-color: grey;
+}
