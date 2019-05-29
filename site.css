@@ -125,8 +125,24 @@ main > section {
     max-width: 600px;
 }
 .workHistory > header {
-    background-color: red;
+    background-color: #f7c59f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: black;
 }
 .workHistory > main {
-    background-color: grey;
+    background-color: #e9e3e6;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    height: 220px;
+    line-height: 1.4;
+}
+.workHistory > main li {
+    margin-bottom: 10px;
+}
+h4, .education > main {
+    text-align: center;
 }
