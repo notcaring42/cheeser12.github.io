@@ -139,10 +139,18 @@ main > section {
     color: black;
     height: 220px;
     line-height: 1.4;
+    display: flex;
+    align-items: center;
 }
 .workHistory > main li {
     margin-bottom: 10px;
 }
 h4, .education > main {
     text-align: center;
+}
+@media(max-width: 775px) {
+    .work > main > ul {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
 }
