@@ -41,6 +41,11 @@ a:visited {
     margin-bottom: 5px;
     font-size: 3em;
 }
+@media(max-width: 387px) {
+    .title > h1 {
+        font-size: 2.7em;
+    } 
+}
 .title > h2 {
     font-size: 1.3em;
 }
