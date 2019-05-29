@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: #698996;
+    background-color: #424547;
     color: white;
     align-content: center;
 }
@@ -63,7 +63,7 @@ nav > ul {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #303030;
+    background-color: #6e7276;
     width: 100%;
     display: none;
     color: white;
