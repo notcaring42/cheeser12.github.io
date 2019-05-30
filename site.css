@@ -6,10 +6,9 @@ body {
     color: white;
     align-content: center;
 }
-a:visited {
+a, a:visited {
     color: inherit;
-
-} 
+}
 
 
 @keyframes header-fade-in {
