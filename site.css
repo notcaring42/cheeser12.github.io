@@ -207,3 +207,14 @@ h4,
   font-style: italic;
   font-weight: bold;
 }
+
+.project {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.projectList {
+  display: flex;
+  list-style-type: none;
+  padding-left: 50px;
+  flex-direction: column;
+}
