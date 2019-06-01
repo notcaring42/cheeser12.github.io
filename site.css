@@ -54,9 +54,9 @@ a:visited {
   }
 }
 @media (max-width: 368px) {
-    .title > h1 {
-        font-size: 2.3em;
-    }
+  .title > h1 {
+    font-size: 2.3em;
+  }
 }
 .title > h2 {
   font-size: 1.3em;
@@ -174,7 +174,8 @@ main > section {
 .techList > main {
   background-color: #e9e3e6;
   color: black;
-  min-height: 100px;
+  min-height: 175px;
+  max-width: 200px;
 }
 .techList > header {
   background-color: #93b7be;
