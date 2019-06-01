@@ -216,6 +216,9 @@ h4,
 .project > main {
   line-height: 1.4;
 }
+.project > header > h4 {
+  text-align: inherit;
+}
 .projectList {
   display: flex;
   list-style-type: none;
