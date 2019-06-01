@@ -114,6 +114,10 @@ main > section {
   visibility: hidden;
 }
 
+.aboutSection {
+  margin-bottom: 50px;
+}
+
 .work,
 .tech {
   margin-top: 10px;
