@@ -5,10 +5,14 @@ body {
   background-color: #424547;
   color: white;
   align-content: center;
+  font-family: "Roboto Slab", serif;
 }
 a,
 a:visited {
   color: inherit;
+}
+h4 {
+  font-family: "Raleway", sans-serif;
 }
 
 @keyframes header-fade-in {
@@ -110,8 +114,13 @@ main > section {
 .anchor {
   display: block;
   position: relative;
-  top: -120px;
+  top: -150px;
   visibility: hidden;
+}
+main > section > h3 {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
 }
 
 .aboutSection {
