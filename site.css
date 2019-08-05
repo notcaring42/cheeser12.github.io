@@ -162,6 +162,9 @@ main > section > h3 {
   list-style-type: none;
   max-width: 600px;
 }
+.widget {
+  min-width: 200px;
+}
 .widget > header {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -188,7 +191,6 @@ main > section > h3 {
   background-color: #e9e3e6;
   color: black;
   min-height: 175px;
-  max-width: 200px;
 }
 .techList > header {
   background-color: #93b7be;
